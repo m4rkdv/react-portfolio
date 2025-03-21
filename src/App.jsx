@@ -1,11 +1,12 @@
 import { Sidenav } from "./components/Sidenav"
+import  Main  from "./components/Main"
 function App() {
   
 
   return (
     <>
+      <Main/>
       <Sidenav/>
-      <h1>asdasd</h1>
     </>
   )
 }
